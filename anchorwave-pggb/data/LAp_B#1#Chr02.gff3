@@ -1,0 +1,10 @@
+LAp_B#1#Chr02	.	gene	61437	61736	1	-	.	ID=LAp.02B0000010;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=0/0;Source=augustus52822;Integrity=complete;
+LAp_B#1#Chr02	.	mRNA	61437	61736	1	-	.	ID=LAp.02B0000010.t1;Parent=LAp.02B0000010;IntronSupport=0/0;Integrity=complete;
+LAp_B#1#Chr02	.	exon	61437	61736	.	-	.	ID=LAp.02B0000010.t1.exon1;Parent=LAp.02B0000010.t1;
+LAp_B#1#Chr02	.	CDS	61437	61736	1	-	0	ID=LAp.02B0000010.t1.CDS1;Parent=LAp.02B0000010.t1;
+LAp_B#1#Chr02	.	gene	63616	64782	.	-	.	ID=LAp.02B0000020;Source=genewise45537;Integrity=complete;
+LAp_B#1#Chr02	.	mRNA	63616	64782	.	-	.	ID=LAp.02B0000020.t1;Parent=LAp.02B0000020;Integrity=complete;
+LAp_B#1#Chr02	.	exon	63616	64782	.	-	.	ID=LAp.02B0000020.t1.exon1;Parent=LAp.02B0000020.t1;
+LAp_B#1#Chr02	.	CDS	63616	64782	0.00	-	0	ID=LAp.02B0000020.t1.CDS1;Parent=LAp.02B0000020.t1;
+LAp_B#1#Chr02	.	gene	100672	101001	0.6	+	.	ID=LAp.02B0000030;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=0/0;Source=augustus59817;Integrity=complete;
+LAp_B#1#Chr02	.	mRNA	100672	101001	0.6	+	.	ID=LAp.02B0000030.t1;Parent=LAp.02B0000030;IntronSupport=0/0;Integrity=complete;

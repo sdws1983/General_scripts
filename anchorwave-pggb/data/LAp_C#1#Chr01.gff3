@@ -1,0 +1,10 @@
+LAp_C#1#Chr01	.	gene	6352	11876	1	-	.	ID=LAp.01C0000010;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=4/4;Source=augustus37019;Integrity=complete;
+LAp_C#1#Chr01	.	mRNA	6352	11876	1	-	.	ID=LAp.01C0000010.t1;Parent=LAp.01C0000010;IntronSupport=4/4;Integrity=complete;
+LAp_C#1#Chr01	.	exon	11036	11876	.	-	.	ID=LAp.01C0000010.t1.exon1;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	CDS	11036	11876	1	-	0	ID=LAp.01C0000010.t1.CDS1;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	exon	9834	10455	.	-	.	ID=LAp.01C0000010.t1.exon2;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	CDS	9834	10455	1	-	2	ID=LAp.01C0000010.t1.CDS2;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	exon	7455	8856	.	-	.	ID=LAp.01C0000010.t1.exon3;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	CDS	7455	8856	1	-	1	ID=LAp.01C0000010.t1.CDS3;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	exon	7290	7371	.	-	.	ID=LAp.01C0000010.t1.exon4;Parent=LAp.01C0000010.t1;
+LAp_C#1#Chr01	.	CDS	7290	7371	1	-	0	ID=LAp.01C0000010.t1.CDS4;Parent=LAp.01C0000010.t1;

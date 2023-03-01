@@ -1,0 +1,10 @@
+LAp_B#1#Chr01	.	gene	135037	136994	0.57	-	.	ID=LAp.01B0000010;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=2/2;Source=augustus17012;Integrity=complete;
+LAp_B#1#Chr01	.	mRNA	135037	136994	0.57	-	.	ID=LAp.01B0000010.t1;Parent=LAp.01B0000010;IntronSupport=2/2;Integrity=complete;
+LAp_B#1#Chr01	.	five_prime_UTR	136978	136994	.	-	.	ID=LAp.01B0000010.t1.5UTR1;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	exon	136833	136994	.	-	.	ID=LAp.01B0000010.t1.exon1;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	CDS	136833	136977	0.57	-	0	ID=LAp.01B0000010.t1.CDS1;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	exon	136442	136698	.	-	.	ID=LAp.01B0000010.t1.exon2;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	CDS	136442	136698	1	-	2	ID=LAp.01B0000010.t1.CDS2;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	exon	135037	136217	.	-	.	ID=LAp.01B0000010.t1.exon3;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	CDS	135192	136217	1	-	0	ID=LAp.01B0000010.t1.CDS3;Parent=LAp.01B0000010.t1;
+LAp_B#1#Chr01	.	three_prime_UTR	135037	135191	.	-	.	ID=LAp.01B0000010.t1.3UTR1;Parent=LAp.01B0000010.t1;
