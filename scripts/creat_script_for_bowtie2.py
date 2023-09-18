@@ -36,7 +36,7 @@ def mapping1(inputfile, trim, ref, pattern, outputfile):
                     i = i[:-1].split("\t")
                     name = i[0]
                     id = i[1]
-                    command1 = "bowtie2 -p 72 --very-sensitive -x " + ref + " -1 " + trim + "/" + name + pattern + " -2 " + trim + "/" + name + pattern2 + " |samtools sort -@ 72 -T " + name + " -o " + outputfile + "/" + name + ".bam"
+                    command1 = "bowtie2 -p 40 --very-sensitive -x " + ref + " -1 " + trim + "/" + name + pattern + " -2 " + trim + "/" + name + pattern2 + " |samtools sort -@ 40 -T " + name + " -o " + outputfile + "/" + name + ".bam"
                     print (command1)
 
 

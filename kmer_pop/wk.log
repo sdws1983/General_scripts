@@ -1,0 +1,21 @@
+# make input files
+awk '{path="/public/fzjl/zhanglab/pop_data/12511-12.16/PAG.X101SC19040676-Z01_183srawdata_20191216/clean/";print path$0"_1.fq.gz" >> "input/"$0".inputfile.txt"; print path$0"_2.fq.gz" >> "input/"$0".inputfile.txt"}' Sh.line.txt
+
+# generate sbatch scripts
+bash 1.count_kmers.sh > sbatch.1.count_kmers.sh
+
+# add sbatch header
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shab
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shac
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shad
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shae
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shaf
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shag
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shah
+bash add_header.sh sbatch_header.txt sbatch.1.count_kmers.shai
+
+# generate kmers_list_paths.txt 
+$awk '{print "kmer_counts/"$0".kmers_with_strand\t"$0}' Sh.line.txt  > kmers_list_paths.txt
+
+# make phenotype file
+$awk 'BEGIN{print "accession_id\tphenotype_value"}{print $0"\t1"}' kmer_table/kmers_table.names > kmer_output/kmers_table.phenotype

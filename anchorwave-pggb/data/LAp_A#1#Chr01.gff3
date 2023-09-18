@@ -1,0 +1,10 @@
+LAp_A#1#Chr01	.	gene	43583	49507	1	-	.	ID=Soffic.01G0000020-1A;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=4/4;Source=augustus57551;Integrity=complete;
+LAp_A#1#Chr01	.	mRNA	43583	49507	1	-	.	ID=Soffic.01G0000020-1A.t1;Parent=Soffic.01G0000020-1A;IntronSupport=4/4;Integrity=complete;
+LAp_A#1#Chr01	.	five_prime_UTR	49211	49507	.	-	.	ID=Soffic.01G0000020-1A.t1.5UTR1;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	exon	49211	49507	.	-	.	ID=Soffic.01G0000020-1A.t1.exon1;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	five_prime_UTR	48496	48536	.	-	.	ID=Soffic.01G0000020-1A.t1.5UTR2;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	exon	48247	48536	.	-	.	ID=Soffic.01G0000020-1A.t1.exon2;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	CDS	48247	48495	1	-	0	ID=Soffic.01G0000020-1A.t1.CDS1;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	exon	47468	47717	.	-	.	ID=Soffic.01G0000020-1A.t1.exon3;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	CDS	47468	47717	1	-	0	ID=Soffic.01G0000020-1A.t1.CDS2;Parent=Soffic.01G0000020-1A.t1;
+LAp_A#1#Chr01	.	exon	46059	47272	.	-	.	ID=Soffic.01G0000020-1A.t1.exon4;Parent=Soffic.01G0000020-1A.t1;

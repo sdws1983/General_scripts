@@ -1,0 +1,10 @@
+LAp_A#1#Chr02	.	gene	34673	35002	0.93	+	.	ID=Soffic.02G0000010-1A;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=0/0;Source=augustus56754;Integrity=complete;
+LAp_A#1#Chr02	.	mRNA	34673	35002	0.93	+	.	ID=Soffic.02G0000010-1A.t1;Parent=Soffic.02G0000010-1A;IntronSupport=0/0;Integrity=complete;
+LAp_A#1#Chr02	.	exon	34673	35002	.	+	.	ID=Soffic.02G0000010-1A.t1.exon1;Parent=Soffic.02G0000010-1A.t1;
+LAp_A#1#Chr02	.	CDS	34673	35002	0.93	+	0	ID=Soffic.02G0000010-1A.t1.CDS1;Parent=Soffic.02G0000010-1A.t1;
+LAp_A#1#Chr02	.	gene	36569	36787	0.88	+	.	ID=Soffic.02G0000020-1A;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=0/0;Source=augustus56753;Integrity=complete;
+LAp_A#1#Chr02	.	mRNA	36569	36787	0.88	+	.	ID=Soffic.02G0000020-1A.t1;Parent=Soffic.02G0000020-1A;IntronSupport=0/0;Integrity=complete;
+LAp_A#1#Chr02	.	exon	36569	36787	.	+	.	ID=Soffic.02G0000020-1A.t1.exon1;Parent=Soffic.02G0000020-1A.t1;
+LAp_A#1#Chr02	.	CDS	36569	36787	0.88	+	0	ID=Soffic.02G0000020-1A.t1.CDS1;Parent=Soffic.02G0000020-1A.t1;
+LAp_A#1#Chr02	.	gene	292363	307796	1	-	.	ID=Soffic.02G0000030-1A;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=3/3;Source=augustus40269;Integrity=complete;
+LAp_A#1#Chr02	.	mRNA	292363	307796	1	-	.	ID=Soffic.02G0000030-1A.t1;Parent=Soffic.02G0000030-1A;IntronSupport=3/3;Integrity=complete;

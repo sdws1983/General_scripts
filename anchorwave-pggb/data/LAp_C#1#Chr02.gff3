@@ -1,0 +1,10 @@
+LAp_C#1#Chr02	.	gene	166207	166506	0.99	-	.	ID=LAp.02C0000060;Augustus_transcriptSupport_percentage=100;Augustus_intronSupport=0/0;Source=augustus62760;Integrity=complete;
+LAp_C#1#Chr02	.	mRNA	166207	166506	0.99	-	.	ID=LAp.02C0000060.t1;Parent=LAp.02C0000060;IntronSupport=0/0;Integrity=complete;
+LAp_C#1#Chr02	.	exon	166207	166506	.	-	.	ID=LAp.02C0000060.t1.exon1;Parent=LAp.02C0000060.t1;
+LAp_C#1#Chr02	.	CDS	166207	166506	0.99	-	0	ID=LAp.02C0000060.t1.CDS1;Parent=LAp.02C0000060.t1;
+LAp_C#1#Chr02	.	gene	168412	169578	0.54	-	.	ID=Soffic.02G0000070-3C;Augustus_transcriptSupport_percentage=66.7;Augustus_intronSupport=0/1;Source=augustus62761;Integrity=complete;
+LAp_C#1#Chr02	.	mRNA	168412	169578	0.54	-	.	ID=Soffic.02G0000070-3C.t1;Parent=Soffic.02G0000070-3C;IntronSupport=0/1;Integrity=complete;
+LAp_C#1#Chr02	.	exon	169239	169578	.	-	.	ID=Soffic.02G0000070-3C.t1.exon1;Parent=Soffic.02G0000070-3C.t1;
+LAp_C#1#Chr02	.	CDS	169239	169578	0.64	-	0	ID=Soffic.02G0000070-3C.t1.CDS1;Parent=Soffic.02G0000070-3C.t1;
+LAp_C#1#Chr02	.	exon	168412	168989	.	-	.	ID=Soffic.02G0000070-3C.t1.exon2;Parent=Soffic.02G0000070-3C.t1;
+LAp_C#1#Chr02	.	CDS	168412	168989	0.73	-	2	ID=Soffic.02G0000070-3C.t1.CDS2;Parent=Soffic.02G0000070-3C.t1;

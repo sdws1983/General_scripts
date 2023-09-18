@@ -29,18 +29,21 @@ def get_parser():
 
 
 def mapping1(inputfile, outputfile, pattern):
-        file_list = os.popen("ls " + inputfile + "/*gz").read()[:-1].split("\n")
-        pattern2 = pattern.replace("1","2")
-        for i in file_list:    
-                if pattern in i and "1" in pattern:
-                        pe = i.replace(pattern, pattern2)
-                        output = outputfile + "/" + i.split("/")[-1].split(pattern)[0]
-                        command1 = "~/miniconda3/bin/fastp -w 64 -i " + i + " -I " + pe + " -o " + output + ".trimmed_1.fq.gz -O " + output + ".trimmed_2.fq.gz "
-                        print (command1)
-                else:
-                	output = outputfile + "/" + i.split("/")[-1].split(pattern)[0]
-                	command1 = "~/miniconda3/bin/fastp -w 64 -i " + i + " -o " + output + ".trimmed.fq.gz "
-                	print (command1)
+	file_list = os.popen("ls " + inputfile + "/*gz").read()[:-1].split("\n")
+	pattern2 = pattern.replace("1","2")
+	for i in file_list:
+		if pattern in i and "1" in pattern:
+			pe = i.replace(pattern, pattern2)
+			output = outputfile + "/" + i.split("/")[-1].split(pattern)[0]
+			command1 = "fastp -w 64 -i " + i + " -I " + pe + " -o " + output + ".trimmed_1.fq.gz -O " + output + ".trimmed_2.fq.gz 2> " + output + ".fastp.log"
+			print (command1)
+		else:
+			if pattern2 in i and "2" in pattern2:
+				pass
+			else:
+				output = outputfile + "/" + i.split("/")[-1].split(pattern)[0]
+				command1 = "fastp -w 64 -i " + i + " -o " + output + ".trimmed.fq.gz 2> " + output + ".fastp.log"
+				print (command1)
 
 
 
