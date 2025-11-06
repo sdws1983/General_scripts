@@ -1,6 +1,6 @@
 # DosageGWAS
 
-### prepare genotypes
+### 1. prepare genotypes
 
 ###### tped file
 
@@ -42,14 +42,15 @@ emmax_in.Chr01.tfam  emmax_in.Chr02.tfam  emmax_in.Chr03.tfam  emmax_in.Chr04.tf
 emmax_in.Chr01.tped  emmax_in.Chr02.tped  emmax_in.Chr03.tped  emmax_in.Chr04.tped  emmax_in.Chr05.tped  emmax_in.Chr06.tped  emmax_in.Chr07.tped  emmax_in.Chr08.tped  emmax_in.Chr09.tped  emmax_in.Chr10.tped  emmax_in.tped
 ```
 
-### prepare kinship
+### 2. prepare kinship
 
+```bash
 python3 subsample.py emmax.filtered/emmax_in.tped emmax_in.subsample.tped 111 # "emmax.filtered/emmax_in.tped" is the tped for whole genome 
 cp emmax.filtered/emmax_in.tfam emmax_in.subsample.tfam
 ~/software/emmax-kin-intel64 emmax_in.subsample -x -d 10 -v -o emmax_in.BN.kin
+```
 
-### prepare PCs
-
+### 3. prepare PCs
 
 ###### calculate PCA using plink2 (for input files format, refer to "plink2.input.example")
 
@@ -75,7 +76,7 @@ C88-380 C88-380 1       -0.167254       0.0738998       -0.104399       0.010983
 C89-147 C89-147 1       -0.0979922      0.0651423       0.054407        0.0220486       -0.0689485      -0.0259223      -0.0499778      -0.000249706    -0.0193513      0.0661616
 ```
 
-### prepare phenotypes
+### 4. prepare phenotypes
 
 ```bash
 (base) [off_huangyumin@node47 SGG1.1]$ head traits.GZZTF.txt 
@@ -92,8 +93,9 @@ C89-147 C89-147 0.798946258319673
 ```
 
 
-### run emmax for each chro
+### 5. run emmax for each chro
 
+```bash
 dir="emmax"
 out="res"
 
@@ -105,4 +107,4 @@ for t in GZZTF ZXWF TCD ZGD ZZZTF HYTF SCD ZLCD;do
 ~/software/emmax-intel64 -t ${dir}/emmax_in.Chr${i} -o ${out}/emmax.Chr${i}.${t}.qk -p traits.${t}.txt -k emmax_in.BN.kin -c emmax_in.cov.txt -Z
 done
 done
-
+```
