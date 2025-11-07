@@ -60,7 +60,7 @@ cp emmax.filtered/emmax_in.tfam emmax_in.subsample.tfam
 	--map SGG1.1.info --psam SGG1.1.fam --threads 20 --pca 20
 ```
 
-###### convert PCA result to emmax input format
+###### convert PCA result to emmax input format (use top 10 PCs)
 
 ```bash
 (base) [off_huangyumin@node47 SGG1.1]$ head -10 emmax_in.cov.txt 
